@@ -131,7 +131,7 @@ a.skip{
   /* Requirement 15 code here -- Do not remove this comment. */
   img{
     max-height: 300px;
-    overflow: auto;
+    overflow: scroll;
   }
 }
 
