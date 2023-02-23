@@ -142,19 +142,15 @@ a.skip{
   }
 } */
 
-.about-image, .clients-image, .method-image, .contact-image {
+/* .about-image, .clients-image, .method-image, .contact-image {
   display: grid;
   max-height: 300px;
   overflow: scroll;
-  max-width: 100%;
-}
-/* 
-.about-image img, .clients-image img, .method-image img, .contact-image img {
-  display: grid;
-  max-height: 300px;
-  overflow: scroll;
-  max-width: 100%;
 } */
+
+.about-image, .clients-image, .method-image, .contact-image{
+  overflow:hidden;
+}
 }
 
 /** Code for prefers reduced motion **/
