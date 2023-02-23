@@ -28,9 +28,14 @@ a.skip{
 
   /* Requirement 4 code here -- Do not remove this comment. */
 .intro {
-  background-color: #858585;
   background-image: url("../images/header.jpg");
+  background-color: #858585;
   min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
   /* Requirement 5 code here -- Do not remove this comment. */
@@ -129,10 +134,22 @@ a.skip{
  
 
   /* Requirement 15 code here -- Do not remove this comment. */
-  img{
-    max-height: 300px;
-    overflow: scroll;
+  /* .container img{
+  
+    max-width: 100%;
+    max-height: 100%;
+   object-fit: contain;
   }
+} */
+
+.about-image, .clients-image, .method-image, .contact-image {
+  display: grid;
+  max-height: 300px;
+  overflow: scroll;
+}
+
+.about-image img, .clients-image img, .method-image img, .contact-image img {
+  object-fit: contain;
 }
 
 /** Code for prefers reduced motion **/
